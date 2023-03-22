@@ -181,6 +181,11 @@ h3 {
         font-size: 35px;
         line-height: 48px;
     }
+
+    h3 {
+        font-size: 25px;
+        line-height: 34px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -227,6 +232,24 @@ h3 {
         border-radius: 4px;
         font-size: 16px;
         line-height: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .btn-allprojects {
+        height: 100px;
+        border-radius: 4px;
+        font-size: 22px;
+        line-height: 100px;
     }
 } 
 
