@@ -58,14 +58,6 @@ h1 {
 */
 }
 
-h2 {
-    font-size: 45px;
-    line-height: 61px;
-/* 
-    letter-spacing: -0.03em;
-*/
-}
-
 p {
     font-size: 20px;
     line-height: 27px;
@@ -78,6 +70,19 @@ p {
     line-height: 24px;
     text-transform: uppercase;
     letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.about {
+    margin-bottom: 150px;
+}
+
+.about-txt {
+    max-width: 1100px;
 }
 
 #btn_services {
@@ -158,9 +163,23 @@ h3 {
     }
     
     .intro_txt {
-        font-size: 15px;
-        line-height: 20px;
+        max-width: 430px;
+        font-size: 20px;
+        line-height: 27px;
         bottom: 30px;
+    }
+
+    .about {
+        margin-bottom: 120px;
+    }
+
+    .about-txt {
+        max-width: 700px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 48px;
     }
 }
 
@@ -168,10 +187,10 @@ h3 {
     .container {
         padding: 0 15px;
     }
-
+    
     h1 {
         font-size: 30px;
-        line-height: 31px;
+        line-height: 32px;
         margin-bottom: 25px;
     }
 
@@ -179,6 +198,33 @@ h3 {
         max-width: 312px;
         bottom: 15px;
         left: 15px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .section-title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #btn_services {
+        width: 194px;
+        height: 51px;
+        border-radius: 4px;
         font-size: 16px;
         line-height: 22px;
     }
@@ -285,11 +331,6 @@ img {
 .middle {
     max-width: 1150px;
     margin: auto;
-}
-
-.about {
-    max-width: 1100px;
-    margin-bottom: 150px;
 }
 
 
