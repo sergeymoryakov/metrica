@@ -151,15 +151,28 @@ h3 {
         width: 100%;
     }
 
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    
     .intro_txt {
+        font-size: 15px;
+        line-height: 20px;
         bottom: 30px;
     }
 }
 
-/* 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
     .container {
         padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 31px;
+        margin-bottom: 25px;
     }
 
     .intro_txt {
@@ -170,7 +183,7 @@ h3 {
         line-height: 22px;
     }
 } 
-*/
+
 
 /* 
 .tag-services {
