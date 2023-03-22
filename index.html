@@ -21,10 +21,10 @@
                 </a>
                 <div class="menu__nav">
                     <a href="index.html">ENGLISH</a>
-                    <a href="#id_about">О НАС</a>
-                    <a href="#id_projects">ПРОЕКТЫ</a>
-                    <a href="#id_services">УСЛУГИ</a>
-                    <a href="#id_contacts">КОНТАКТЫ</a>
+                    <a href="#id-about">О НАС</a>
+                    <a href="#id-projects">ПРОЕКТЫ</a>
+                    <a href="#id-services">УСЛУГИ</a>
+                    <a href="#id-contacts">КОНТАКТЫ</a>
                 </div>
             </div>
         -->
@@ -33,16 +33,16 @@
         <section class="intro">
             <div class="container">
                 <h1>Современные и стильные <br>интерьеры для комфортной жизни</h1>
-                <div class="intro_img">
+                <div class="intro-img">
+<!-- 
+                    <img src="resources/Intro.jpg" alt="Intro Image Placeholder">
                     <picture>
                         <source media="(min-width: 961px)" srcset="/resources/Intro.jpg">
                         <source media="(min-width: 376px)" srcset="/resources/Intro-m.jpg">
                         <img src="/resources/Intro-s.jpg" alt="Flowers" style="width:auto;">
                     </picture>
-<!-- 
-                    <img src="resources/Intro.jpg" alt="Intro Image Placeholder">
 -->
-                    <div class="intro_txt">
+                    <div class="intro-txt">
                         <p>
                             Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов
                         </p>
@@ -50,45 +50,63 @@
                 </div>
             </div>
         </section>
+
+        <section id="id-about" class="about">
+            <div class="container">
+                <p class="section-title">О НАС</p>
+                <div>
+                    <h2>
+                        Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
+                    </h2>
+                </div>
+                <button id="btn_services">Посмотреть услуги</button>
+            </div>
+        </section>
         
+        <section id="id-projects">
+            <div class="container">
+                <p class="section-title">ПРОЕКТЫ</p>
+                
+                <div class="project">
+                    <div class="image-tbs">
+                        
+                    </div>
+                    <!-- 
+                        <img src="resources/Project 1.jpg" alt="Project Image Placeholder">
+                    -->
+                    <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                    <a href="">Подробнее →</a>
+                </div>
+                
+                <div class="project">
+                    <div class="image-tbs">
+                
+                    </div>
+                    <!-- 
+                        <img src="resources/Project 2.jpg" alt="Project Image Placeholder">
+                    -->
+                    <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                    <a href="">Подробнее →</a>
+                </div>
+                
+                <div class="project">
+                    <div class="image-tbs">
+                
+                    </div>
+<!-- 
+                    <img src="resources/Project 3.jpg" alt="Project Image Placeholder">
+-->
+                    <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                    <a href="">Подробнее →</a>
+                </div>
+                
+                <a class="btn-allprojects" href="">Смотреть все проекты</a>
+            </div>
+        </section>
         <!--         
 
-
-        <div id="id_about" class="about">
-            <p class="tag">О НАС</p>
-            <div>
-                <h2>
-                    Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
-                </h2>
-            </div>
-            <button id="btn_services">Посмотреть услуги</button>
-        </div>
-        
-        <p id="id_projects" class="tag">ПРОЕКТЫ</p>
-        
-        <div class="project">
-            <img src="resources/Project 1.jpg" alt="Project Image Placeholder">
-            <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-            <a href="">Подробнее →</a>
-        </div>
-        
-        <div class="project">
-            <img src="resources/Project 2.jpg" alt="Project Image Placeholder">
-            <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-            <a href="">Подробнее →</a>
-        </div>
-        
-        <div class="project">
-            <img src="resources/Project 3.jpg" alt="Project Image Placeholder">
-            <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-            <a href="">Подробнее →</a>
-        </div>
-        
-        <a id="all_projects" href="">Смотреть все проекты</a>
-
-
         <div class="section_black">
-            <div id="id_services" class="services_black_set">
+            <div id="id-services" class="services_black_set">
                 <p class="tag-services">УСЛУГИ</p>
                 
                 <div class="service">
@@ -121,7 +139,7 @@
             </div>
         </div>
 
-        <section id="id_contacts" class="section_white">
+        <section id="id-contacts" class="section_white">
             <div class="contacts">
                 <div class="tag-phone-before"><p>КОНТАКТЫ</p></div>
                 <a class="contacts_tel" href="tel:+358500000000">+358 (50) 000-00-00</a>
