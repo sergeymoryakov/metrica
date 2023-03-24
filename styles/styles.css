@@ -114,13 +114,6 @@ h2 {
     margin-bottom: 89px;
 }
 
-/* REMOVE - for tbs only */
-.image-tbs {
-    width: 100%;
-    height: 450px;
-    margin-bottom: 15px;
-}
-
 .project-img {
     margin-bottom: 15px;
     display: block;
@@ -132,12 +125,10 @@ h2 {
     width: 100%;
 }
 
-h3 {
+.project h3 {
+    margin-bottom: 15px;
     font-size: 30px;
     line-height: 41px;
-/* 
-    letter-spacing: -0.03em; 
-*/
 }
 
 .project a {
@@ -208,11 +199,6 @@ h3 {
         font-size: 35px;
         line-height: 48px;
     }
-
-    h3 {
-        font-size: 25px;
-        line-height: 34px;
-    }
     
 /* Projects Section Styles */
     
@@ -226,6 +212,18 @@ h3 {
         width: 100%;
         border: dotted 1px red;
     }
+
+    .project h3 {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .project a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
 }
 
 
@@ -290,17 +288,6 @@ h3 {
         line-height: 22px;
     }
 
-    h3 {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .project a {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-
     .btn-allprojects {
         height: 100px;
         border-radius: 4px;
@@ -315,17 +302,19 @@ h3 {
     }
 
     .project-img {
-        margin-bottom: 15px;
-        display: block;
-        width: 100%;
-        border: dotted 1px red;
+        margin-bottom: 20px;
     }
-/* 
-    .project-img img {
-        display: block;
-        width: 100%;
-    } 
-*/
+
+    .project h3 {
+        margin-bottom: 11px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project a {
+        font-size: 16px;
+        line-height: 22px;
+    }
 
 } 
 
