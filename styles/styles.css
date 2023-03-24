@@ -36,6 +36,7 @@ section {
 
 /* Intro Section Styles */
 .intro {
+    margin-bottom: 150px;
     /* REMOVE */
     background-color: pink;
 }    
@@ -48,8 +49,14 @@ h1 {
 
 .intro-img {
     position: relative;
-    margin-bottom: 150px;
     display: block;
+    height: 500px;
+/* 
+    background-image: url('/resources/Intro.jpg'); 
+*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
     /* REMOVE */
     border: solid 1px red;
 }
@@ -160,6 +167,14 @@ h3 {
     }
 
 /* Intro Section Styles */
+    .intro {
+        margin-bottom: 120px;
+    }
+
+    .intro-img {
+        height: 400px;
+    }
+
     h1 {
         font-size: 50px;
         line-height: 60px;
@@ -173,6 +188,7 @@ h3 {
         bottom: 30px;
     }
 
+/* About Section Styles */
     .about {
         margin-bottom: 120px;
     }
@@ -205,6 +221,14 @@ h3 {
     }
 
 /* Intro Section Styles */
+    .intro {
+        margin-bottom: 80px;
+    }
+
+    .intro-img {
+        height: 304px;
+    }
+
     h1 {
         font-size: 30px;
         line-height: 32px;
@@ -212,13 +236,18 @@ h3 {
     }
 
     .intro-txt {
+        /* TBS: 
         max-width: 312px;
+        */
+        padding-right: 15px;
+        
         bottom: 15px;
         left: 15px;
         font-size: 16px;
         line-height: 22px;
     }
 
+/* About Section Styles */
     .about {
         margin-bottom: 80px;
     }
