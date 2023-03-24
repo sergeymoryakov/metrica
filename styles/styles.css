@@ -26,10 +26,11 @@ a {
 */
 }
 
-/* REMOVE - for tbs obly */
-section {
-    border: dashed 1px red;
-}
+/* REMOVE - for tbs obly 
+    section {
+        border: dashed 1px red;
+    }
+*/
 
 /* .tag renamed to .section-title */
 .section-title {
@@ -64,8 +65,9 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 20% 50%;
-    /* REMOVE */
+    /* REMOVE 
     border: solid 1px red;
+    */
 }
 
 /* Check if needed: img vs. picture 
@@ -124,7 +126,9 @@ h2 {
 .project-img {
     margin-bottom: 15px;
     display: block;
+    /* REMOVE 
     border: dotted 1px red;
+    */
 }
 
 .project-img img {
