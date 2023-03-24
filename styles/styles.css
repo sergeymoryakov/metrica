@@ -21,8 +21,9 @@ a {
     padding: 0 125px;
     width: 1400px;
     
-    /* REMOVE */
+/* REMOVE 
     background-color: aqua;
+*/
 }
 
 /* REMOVE - for tbs obly */
@@ -42,8 +43,9 @@ section {
 /* Intro Section Styles */
 .intro {
     margin-bottom: 150px;
-    /* REMOVE */
+/* REMOVE 
     background-color: pink;
+*/
 }    
 
 h1 {
