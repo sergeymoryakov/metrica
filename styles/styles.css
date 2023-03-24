@@ -51,7 +51,7 @@ h1 {
     position: relative;
     display: block;
     height: 500px;
-/* 
+/* REMOVE
     background-image: url('/resources/Intro.jpg'); 
 */
     background-size: cover;
@@ -81,13 +81,14 @@ h1 {
 */
 }
 
+/* About Sevtion Styles */
+.about {
+    margin-bottom: 150px;
+}
+
 h2 {
     font-size: 45px;
     line-height: 61px;
-}
-
-.about {
-    margin-bottom: 150px;
 }
 
 .about-txt {
@@ -108,6 +109,8 @@ h2 {
     cursor: pointer;
 }
 
+/* Projects Section Styles */
+
 .project {
     margin-bottom: 89px;
 }
@@ -117,12 +120,17 @@ h2 {
     width: 100%;
     height: 450px;
     margin-bottom: 15px;
-    border: solid 1px red;
 }
 
-.project img {
-    width: 100%;
+.project-img {
     margin-bottom: 15px;
+    display: block;
+    border: dotted 1px red;
+}
+
+.project-img img {
+    display: block;
+    width: 100%;
 }
 
 h3 {
@@ -206,7 +214,21 @@ h3 {
         font-size: 25px;
         line-height: 34px;
     }
+    
+/* Projects Section Styles */
+    
+    .project {
+        margin-bottom: 80px;
+    }
+    
+    .project-img {
+        margin-bottom: 15px;
+        display: block;
+        width: 100%;
+        border: dotted 1px red;
+    }
 }
+
 
 @media (max-width: 575px) {
 /* Common Styles */
@@ -286,7 +308,28 @@ h3 {
         font-size: 22px;
         line-height: 100px;
     }
+
+/* Projects Section Styles */
+
+    .project {
+        margin-bottom: 49px;
+    }
+
+    .project-img {
+        margin-bottom: 15px;
+        display: block;
+        width: 100%;
+        border: dotted 1px red;
+    }
+/* 
+    .project-img img {
+        display: block;
+        width: 100%;
+    } 
+*/
+
 } 
+
 
 
 /* 
