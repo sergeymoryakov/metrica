@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Common Styles */
+
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -23,26 +25,40 @@ section {
     border: dashed 1px red;
 }
 
+/* .tag renamed to .section-title */
+.section-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}
+
+/* Intro Section Styles */
 .intro {
     /* REMOVE */
     background-color: pink;
 }    
 
 h1 {
+    margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 30px;
 }
 
 .intro-img {
-    margin-bottom: 150px;
-    width: 100%;
-    /* REMOVE */
-    height: 400px;
     position: relative;
-    display: inline-block;
+    margin-bottom: 150px;
+    display: block;
     /* REMOVE */
     border: solid 1px red;
+}
+
+/* Check if needed: img vs. picture 
+*/
+.intro-img img {
+    width: 100%;
+    display: block; 
 }
 
 .intro-txt {
@@ -56,20 +72,6 @@ h1 {
 /* 
     background-color: transparent;
 */
-}
-
-p {
-    font-size: 20px;
-    line-height: 27px;
-}
-
-/* .tag renamed to .section-title */
-.section-title {
-    margin-bottom: 30px;
-    font-size: 18px;
-    line-height: 24px;
-    text-transform: uppercase;
-    letter-spacing: -0.03em;
 }
 
 h2 {
@@ -151,18 +153,20 @@ h3 {
 
 
 @media (max-width: 960px) {
+/* Common Styles */
     .container {
-        padding: 0 17px;
+        padding: 0 16px;
         width: 100%;
     }
 
+/* Intro Section Styles */
     h1 {
         font-size: 50px;
         line-height: 60px;
         margin-bottom: 30px;
     }
     
-    .intro_txt {
+    .intro-txt {
         max-width: 430px;
         font-size: 20px;
         line-height: 27px;
@@ -188,29 +192,31 @@ h3 {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
+/* Common Styles */
     .container {
-        padding: 0 15px;
+        padding: 0 12px;
     }
-    
+
+    .section-title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+/* Intro Section Styles */
     h1 {
         font-size: 30px;
         line-height: 32px;
         margin-bottom: 25px;
     }
 
-    .intro_txt {
+    .intro-txt {
         max-width: 312px;
         bottom: 15px;
         left: 15px;
         font-size: 16px;
         line-height: 22px;
-    }
-    
-    .section-title {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 19px;
     }
 
     .about {
