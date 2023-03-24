@@ -4,7 +4,12 @@ html {
 
 /* Common Styles */
 
-body {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     letter-spacing: -0.03em;
@@ -92,7 +97,7 @@ h2 {
 }
 
 .about-txt {
-    max-width: 1100px;
+    max-width: 1060px;
 }
 
 #btn_services {
@@ -201,7 +206,6 @@ h2 {
     }
     
 /* Projects Section Styles */
-    
     .project {
         margin-bottom: 80px;
     }
@@ -296,7 +300,6 @@ h2 {
     }
 
 /* Projects Section Styles */
-
     .project {
         margin-bottom: 49px;
     }
@@ -316,6 +319,12 @@ h2 {
         line-height: 22px;
     }
 
+    .btn-allprojects {
+        height: 100px;
+        border-radius: 4px;
+        font-size: 22px;
+        line-height: 100px;
+    }
 } 
 
 
