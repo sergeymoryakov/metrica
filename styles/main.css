@@ -18,5 +18,5 @@ a {
 .container {
     margin-inline: auto;
     padding: 0 12px;
-    min-width: 375px;
+    width: 100%;
 }
