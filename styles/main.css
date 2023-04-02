@@ -1,3 +1,9 @@
+@import "./intro.css";
+
+/* 
+@import "./intro.css";
+*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,4 +25,48 @@ a {
     margin-inline: auto;
     padding: 0 12px;
     width: 100%;
+    background-color: aquamarine;
 }
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    /* letter-spacing: -0.03em; */
+}
+
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+
+    .container {
+        padding: 0 16px;
+        background-color: yellow;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+
+    .container {
+        padding: 0;
+        max-width: 1150px;
+        background-color: lightblue;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+/*** End WIDE Screen ***/
