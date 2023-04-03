@@ -1,0 +1,28 @@
+/* XXXXXX Section Styles */
+
+.put-section-name-here {
+/* REMOVE! Temporary margin-top */
+    margin-top: 108px;
+
+    margin-bottom: 80px;
+}    
+
+
+
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    
+    
+
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+
+
+    
+}
+/*** End WIDE Screen ***/
