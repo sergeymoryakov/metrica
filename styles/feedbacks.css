@@ -9,13 +9,28 @@
     border: 1px solid blue;
 }    
 
+.feedbacks-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    border: 1px solid pink;
+}
 
-
+.feedback {
+    width: 100%;
+    border: 1px dashed pink;
+}
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
     
-    
+    .feedback {
+        width: calc(50% - 2px);
+    }
+
+    .feedback:last-child:nth-child(odd) {
+        width: 80%;
+    }
 
 }
 /*** End TABLET Screen ***/

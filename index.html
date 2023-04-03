@@ -63,7 +63,7 @@
     <section id="id-projects" class="projects">
         <div class="container">
             <p class="section-title">ПРОЕКТЫ</p>
-                <div class="projects-block">
+                <div class="projects-wrapper">
                     <div class="project">
                         <div class="project-img">
                             <picture>
@@ -111,27 +111,45 @@
     <div class="container">
             <!-- NOTE: class "services-block" replaced "services_black_set"  -->
             <p class="section-title dark">УСЛУГИ</p>
-            <div class="services-block">
+            <div class="services-wrapper">
                 <div class="service">
-                    <img src="resources/Service1-s.jpg" alt="Service Image Placeholder">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="resources/Service1-s.jpg">
+                        <source media="(max-width: 960px)" srcset="resources/Service1-m.jpg">
+                        <img src="resources/Service1-l.jpg" alt="Service Image Placeholder">
+                    </picture>
+
                     <button class="btn-service">от 2500₽/м²</button>
                     <h3>Планировочное решение</h3>
                 </div>
                 
                 <div class="service">
-                    <img src="resources/Service2-s.jpg" alt="Service Image Placeholder">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="resources/Service2-s.jpg">
+                        <source media="(max-width: 960px)" srcset="resources/Service2-m.jpg">
+                        <img src="resources/Service2-l.jpg" alt="Service Image Placeholder">
+                    </picture>
+
                     <button class="btn-service">от 3000₽/м²</button>
                     <h3>Дизайн-проект</h3>
                 </div>
                 
                 <div class="service">
-                    <img src="resources/Service3-s.jpg" alt="Service Image Placeholder">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="resources/Service3-s.jpg">
+                        <source media="(max-width: 960px)" srcset="resources/Service3-m.jpg">
+                        <img src="resources/Service3-l.jpg" alt="Service Image Placeholder">
+                    </picture>
                     <button class="btn-service">от 30 000₽/мес</button>
                     <h3>Авторский надзор</h3>
                 </div>
                 
                 <div class="service">
-                    <img src="resources/Service4-s.jpg" alt="Service Image Placeholder">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="resources/Service4-s.jpg">
+                        <source media="(max-width: 960px)" srcset="resources/Service4-m.jpg">
+                        <img src="resources/Service4-l.jpg" alt="Service Image Placeholder">
+                    </picture>
                     <button class="btn-service">5% от стоимости</button>
                     <h3>Комплектация</h3>
                 </div>
@@ -143,7 +161,7 @@
     <section class="feedbacks">
         <div class="container">
             <p class="section-title">ОТЗЫВЫ</p>
-            <div class="feedback-wrapper">
+            <div class="feedbacks-wrapper">
                 <div class="feedback">
                     <h2>Ксения, проект 65 кв.м.</h2>
                     <p>

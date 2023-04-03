@@ -5,9 +5,25 @@
     background-color: #121212;
 }
 
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    border: 1px solid red;
+}
+
 .service {
     margin-bottom: 64px;
     position: relative;
+    width: 100%;
+    display: block;
+    border: 1px dashed red;
+}
+
+.service img {
+    margin-bottom: 9px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .service h3 {
@@ -15,16 +31,6 @@
     font-size: 18px;
     line-height: 26px;
     color: #ffffff;
-}
-
-/* 
-.service:nth-last-child(1) {
-    margin-bottom: 0px;
-} 
-*/
-
-.service img {
-    margin-bottom: 9px;
 }
 
 .btn-service {
@@ -59,8 +65,10 @@
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
-    
-    
+
+    .service {
+        width: calc(50% - 2px);
+    }
 
 }
 /*** End TABLET Screen ***/
