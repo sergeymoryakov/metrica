@@ -2,10 +2,8 @@
 
 @import "./intro.css";
 @import "./about.css";
+@import "./projects.css";
 
-/* 
-@import "./intro.css";
-*/
 
 html {
     scroll-behavior: smooth;

@@ -2,53 +2,7 @@
 
 
 /* Projects Section Styles */
-.project {
-    margin-bottom: 89px;
-}
 
-.project-img {
-    margin-bottom: 15px;
-    display: block;
-    /* REMOVE 
-    border: dotted 1px red;
-    */
-}
-
-.project-img img {
-    display: block;
-    width: 100%;
-}
-
-.project h3 {
-    margin-bottom: 15px;
-    font-size: 30px;
-    line-height: 41px;
-}
-
-.project a {
-    font-size: 20px;
-    line-height: 27px;
-    color: #AD1818;
-    text-decoration: none;
-}
-
-.btn-allprojects {
-    display: block;
-    width: 100%;
-    height: 151px;
-    border: 1px solid #AD1818;
-    color: #AD1818;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 151px;
-    text-decoration: none;
-}
-
-.btn-allprojects:hover {
-    color: #ffffff;
-    background-color: #AD1818;
-}
 
 
 @media (max-width: 960px) {
