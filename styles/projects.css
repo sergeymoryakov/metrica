@@ -9,7 +9,7 @@
 }
 
 .project:last-child {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
 }
 
 .project-img {
@@ -54,34 +54,59 @@
 }
 
 
-
 /*** TABLET Screen only ***/
 
 @media (min-width: 576px) {
-
-
+    
+    .projects {
+        margin-bottom: 103px;
+    }
+    
+    .project {
+        margin-bottom: 80px;
+    }
+    
+    .project:last-child {
+        margin-bottom: 102px;
+    }
+    
+    .project-img {
+        margin-bottom: 15px;
+    }
+    
+    .project h3 {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    
+    .project a {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .btn-allprojects {
+        height: 153px;
+        border-radius: 5px;
+        font-size: 30px;
+        line-height: 153px;
+    }
 }
 /*** End TABLET Screen ***/
 
 
 /*** WIDE screen only ***/
 @media (min-width: 1182px) {
+    .projects {
+        margin-bottom: 150px;
+    }
     
     .project {
-        margin-bottom: 89px;
+        margin-bottom: 90px;
     }
     
-    .project-img {
-        margin-bottom: 15px;
-        display: block;
-        /* REMOVE 
-        border: dotted 1px red;
-        */
-    }
-    
-    .project-img img {
-        display: block;
-        width: 100%;
+    .project:last-child {
+        margin-bottom: 92px;
     }
     
     .project h3 {
@@ -90,30 +115,11 @@
         line-height: 41px;
     }
     
-    .project a {
-        font-size: 20px;
-        line-height: 27px;
-        color: #AD1818;
-        text-decoration: none;
-    }
-    
     .btn-allprojects {
-        display: block;
-        width: 100%;
-        height: 151px;
-        border: 1px solid #AD1818;
-        color: #AD1818;
+        height: 153px;
         border-radius: 5px;
-        text-align: center;
         font-size: 30px;
-        line-height: 151px;
-        text-decoration: none;
-    }
-    
-    .btn-allprojects:hover {
-        color: #ffffff;
-        background-color: #AD1818;
-    }
-    
+        line-height: 153px;
+    }    
 }
 /*** End WIDE Screen ***/
