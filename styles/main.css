@@ -3,6 +3,8 @@
 @import "./intro.css";
 @import "./about.css";
 @import "./projects.css";
+@import "./services.css";
+@import "./feedbacks.css";
 
 
 html {
@@ -19,14 +21,13 @@ a {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     letter-spacing: -0.03em;
-    color: 121212;
+    color: #121212;
 }
 
 .container {
     margin-inline: auto;
     padding: 0 12px;
     width: 100%;
-    background-color: aquamarine;
 }
 
 .section-title {
@@ -34,9 +35,11 @@ a {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
-    /* letter-spacing: -0.03em; */
 }
 
+.dark {
+    color: #ffffff;
+}
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
