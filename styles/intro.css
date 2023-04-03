@@ -4,11 +4,11 @@
 /* REMOVE! Temporary margin-top */
     margin-top: 108px;
 
-    margin-bottom: 80px;
+    margin-bottom: 78px;
 }    
 
 h1 {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
     max-width: 90%;
     font-size: 30px;
     line-height: 32px;
@@ -30,7 +30,7 @@ h1 {
 .intro-txt {
     max-width: 312px;
     position: absolute;
-    bottom: 18px;
+    bottom: 16px;
     left: 15px;
     color: #ffffff;
     font-size: 16px;
@@ -44,7 +44,7 @@ h1 {
     
     .intro {
         margin-top: 128px;
-        margin-bottom: 120px;
+        margin-bottom: 118px;
     }    
     
     h1 {
@@ -70,8 +70,6 @@ h1 {
         object-fit: cover;
         position: 0 0;
     }
-    
-
 }
 /*** End TABLET Screen ***/
 
@@ -80,7 +78,7 @@ h1 {
 @media (min-width: 1182px) {
 
     .intro {
-        margin-bottom: 150px;
+        margin-bottom: 148px;
     }    
     
     h1 {
