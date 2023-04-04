@@ -45,9 +45,11 @@ a {
 
     .container {
         padding: 0 16px;
+        /* NOTE: FOR PP TBS only: 
         background-color: lightgreen;
+        */
     }
-
+    
     .section-title {
         margin-bottom: 30px;
         font-size: 18px;
@@ -59,11 +61,13 @@ a {
 
 /*** WIDE screen only ***/
 @media (min-width: 1182px) {
-
+    
     .container {
         padding: 0;
         max-width: 1150px;
+        /* NOTE: FOR PP TBS only: 
         background-color: lightblue;
+        */
     }
 
     .section-title {
