@@ -11,7 +11,7 @@
 }
 
 .service {
-    margin-bottom: 60px;
+    margin-bottom: 63px;
     position: relative;
     width: 100%;
     display: block;
@@ -33,7 +33,8 @@
     position: absolute;
     top: 23px;
     left: 24px;
-    width: 148px;
+    padding: 0 25px;
+    width: auto;
     height: 30px;
     border-radius: 4px;
     border: 1px solid #AD1818;
@@ -41,7 +42,7 @@
     color: #ffffff;
     text-align: center;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 30px;
     cursor: pointer;
 }
 
@@ -63,7 +64,7 @@
 @media (min-width: 576px) {
 
     .services {
-        padding: 151px 0 120px 0;
+        padding: 151px 0 118px 0;
     }
     
     .services-wrapper {
@@ -112,12 +113,12 @@
         padding: 151px 0 150px 0;
     }
     
+    .services-wrapper {
+        margin-bottom: 7px;
+    }
+
     .service {
         margin-bottom: 85px;
-    }
-    
-    .service:last-child {
-        margin-bottom: 100px;
     }
 
     .service img {
