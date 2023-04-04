@@ -8,16 +8,13 @@
 .services-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
-    border: 1px solid red;
 }
 
 .service {
-    margin-bottom: 64px;
+    margin-bottom: 60px;
     position: relative;
     width: 100%;
     display: block;
-    border: 1px dashed red;
 }
 
 .service img {
@@ -27,7 +24,6 @@
 }
 
 .service h3 {
-    margin-left: 4px;
     font-size: 18px;
     line-height: 26px;
     color: #ffffff;
@@ -66,10 +62,45 @@
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
 
+    .services {
+        padding: 151px 0 120px 0;
+    }
+    
+    .services-wrapper {
+        column-gap: 10px;
+    }
+    
     .service {
-        width: calc(50% - 2px);
+        margin-bottom: 80px;
+        width: calc(50% - 5px);
     }
 
+    .service img {
+        margin-bottom: 15px;
+    }
+
+    .service h3 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
+    .btn-service {
+        top: 31px;
+        left: 32px;
+        padding: 0 26px;
+        width: auto;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .btn-order {
+        height: 153px;
+        border-radius: 5px;
+        font-size: 30px;
+        line-height: 41px;
+    }
 }
 /*** End TABLET Screen ***/
 
@@ -77,7 +108,21 @@
 /*** WIDE screen only ***/
 @media (min-width: 1182px) {
 
+    .services {
+        padding: 151px 0 150px 0;
+    }
+    
+    .service {
+        margin-bottom: 85px;
+    }
+    
+    .service:last-child {
+        margin-bottom: 100px;
+    }
 
+    .service img {
+        margin-bottom: 25px;
+    }
     
 }
 /*** End WIDE Screen ***/
