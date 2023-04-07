@@ -82,6 +82,8 @@
     }
     
     .feedback:last-child:nth-child(odd) {
+        /* NOTE: for PP only */
+        margin-bottom: 0px;
         width: 75%;
     }
 

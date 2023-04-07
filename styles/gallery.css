@@ -3,7 +3,6 @@
 .gallery-frame {
     position: relative;
     width: 100%;
-    border: 1px dashed red;
 }
 
 .gallery-title-wrapper {
@@ -15,7 +14,6 @@
 
 .gallery-slides {
     height: 408px;
-    border: 1px dashed yellow;
 }
 
 .gallery-slide {
@@ -69,6 +67,7 @@
     height: 30px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .gallery-controls button:hover {
@@ -97,7 +96,7 @@
     }
 
     .gallery-controls button {
-        margin-right: 50px;
+        margin-right: 25px;
     }
     
 
@@ -120,6 +119,26 @@
 
     .gallery-slide {
         height: 717px;
+    }
+
+    .gallery-title-wrapper {
+        top: 60px;
+    }
+
+
+    .gallery-controls-wrapper {
+        top: 515px;
+    }
+    
+
+    .gallery-slide-title {
+        top: 575px;
+    }
+
+    .gallery-slide-title h3 {
+        max-width: 443px;
+        font-size: 30px;
+        line-height: 41px;
     }
 
     
