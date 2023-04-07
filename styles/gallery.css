@@ -75,45 +75,41 @@
     opacity: 0.5;
 }
 
-
-
-/* 
-
-
-.gallery_image {
-    width: 500px;
-    height: 717px;
-
-    border: 3px solid yellow;
-    background-color: yellow;
-    z-index: 75;
-}
-    
-.wide_image_position {
-    position: relative;
-    margin: 0 auto;
-    width: 1400px;
-    height: 717px;
-}
-
-.wide_image_txt {
-    position: absolute;
-    left: 125px;
-    bottom: 60px;
-    max-width: 443px;
-    color: #ffffff;
-    background-color: transparent;
-} 
- */
-
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
    
     .gallery-slide {
         height: 536px;
-
     } 
+
+    .gallery-title-wrapper {
+        top: 80px;
+    }
+
+
+    .gallery-controls-wrapper {
+        top: 347px;
+    }
+
+
+    .gallery-controls {
+        justify-content: flex-start;
+    }
+
+    .gallery-controls button {
+        margin-right: 50px;
+    }
     
+
+    .gallery-slide-title {
+        top: 388px;
+    }
+
+    .gallery-slide-title h3 {
+        max-width: 365px;
+        font-size: 25px;
+        line-height: 34px;
+    }
 
 }
 /*** End TABLET Screen ***/
