@@ -94,86 +94,8 @@ img {
     color: #AD1818;
 }
 
-/* GALLERY SECTION */
-
-
-/* 
-.section_image {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.project_img {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
-.project_txt {
-    position: absolute;
-    max-width: 443px;
-    bottom: 60px;
-    left: 125px;
-    color: #ffffff;
-    background-color: transparent;
-} 
-*/
 /*
-.contacts {
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 150px 125px 150px 125px;
-}
 
-.tag-phone-before:before {
-    content: "";
-    display: block;
-    margin-bottom: 13px;
-    margin-left: -4px;
-    width: 24px;
-    height: 24px;
-    background-image: url('../resources/Vector.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.tag-phone-before p {
-    margin-bottom: 32px;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    letter-spacing: -0.03em;
-}
-
-.contacts_tel {
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    text-decoration: none;
-}
-
-.contacts_tel:hover {
-    opacity: 0.5;
-}
-
-.contacts_mail {
-    display: inline-block;
-    padding-bottom: 10px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    text-decoration: none;
-    opacity: 0.5;
-    border-bottom: solid 2px #121212;
-}
-
-.contacts_mail:hover {
-    opacity: 1;
-    border-bottom: solid 3px #121212;
-}
 
 .footer {
     margin: 0 auto;
