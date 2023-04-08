@@ -1,12 +1,5 @@
 /* Contacts Section Styles */
 
-.put-section-name-here {
-/* REMOVE! Temporary margin-top */
-    margin-top: 108px;
-
-    margin-bottom: 80px;
-}    
-
 
 
 
@@ -26,7 +19,13 @@
         margin: 0 auto;
         max-width: 1400px;
         padding: 150px 125px 150px 125px;
-        border: 2px solid red;
+    }
+
+    .contacts- {
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: 150px 125px 150px 125px;
+        border: 1px solid red;
         z-index: 100;
     }
     
@@ -37,7 +36,7 @@
         margin-left: -4px;
         width: 24px;
         height: 24px;
-        background-image: url('../resources/Vector.png');
+        background-image: url('../resources/Vector-phone.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
