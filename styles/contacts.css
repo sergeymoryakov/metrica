@@ -2,7 +2,6 @@
 
 .contacts {
     padding: 83px 0;
-    border: 1px solid red;
 }
     
 .contacts-wrapper {
@@ -124,7 +123,7 @@
 @media (min-width: 1182px) {
 
     .contacts {
-        padding: 150px 0;
+        padding: 150px 0 147px 0;
     }
         
     .contacts-wrapper {

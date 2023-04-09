@@ -1,0 +1,27 @@
+/* Footer Section Styles */
+
+.footer {
+    background-color: #121212;
+    height: 100px;
+    color: #ffffff;
+}    
+
+
+
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    
+    
+
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+
+
+    
+}
+/*** End WIDE Screen ***/
