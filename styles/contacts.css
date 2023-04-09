@@ -1,7 +1,67 @@
 /* Contacts Section Styles */
 
 
+.contacts {
+    padding: 150px 0;
+}
+    
+.contacts-wrapper {
+    display: flex;
+    column-gap: 10px;
 
+    flex-wrap: wrap;
+}
+
+.contact {
+    display: flex;
+    padding-top: 37px;
+    width: calc(50% - 5px);
+    background-color: lightgreen;
+}
+
+.contact-phone {
+    display: block;
+    padding-top: 10px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contact-phone:hover {
+    opacity: 0.5;
+}
+
+.contact-mail {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+    opacity: 0.5;
+    border-bottom: solid 2px #121212;
+}
+
+.contacts_mail:hover {
+    opacity: 1;
+    border-bottom: solid 3px #121212;
+}
+
+/*     
+.add-icon-before:before {
+    content: "";
+    display: block;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/Vector-phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
@@ -16,24 +76,42 @@
 @media (min-width: 1182px) {
 
     .contacts {
-        margin: 0 auto;
-        max-width: 1400px;
-        padding: 150px 125px 150px 125px;
+        padding: 150px 0;
+    }
+        
+    .contacts-wrapper {
+        display: flex;
+        column-gap: 10px;
+
+        flex-wrap: wrap;
     }
 
-    .contacts- {
-        margin: 0 auto;
-        max-width: 1400px;
-        padding: 150px 125px 150px 125px;
-        border: 1px solid red;
-        z-index: 100;
+    .contact {
+        display: flex;
+        padding-top: 37px;
+        width: calc(50% - 5px);
+        background-color: lightgreen;
     }
     
-    .tag-phone-before:before {
+    .contact-phone {
+        position: relative;
+        display: block;
+        padding-top: 10px;
+        font-size: 60px;
+        line-height: 60px;
+        color: #121212;
+        text-decoration: none;
+    }
+    
+    .contact-phone:hover {
+        opacity: 0.5;
+    }
+    
+    .contact-phone:before {
+        position: absolute;
+        top: -37px;
         content: "";
         display: block;
-        margin-bottom: 13px;
-        margin-left: -4px;
         width: 24px;
         height: 24px;
         background-image: url('../resources/Vector-phone.png');
@@ -42,29 +120,9 @@
         background-position: center;
     }
     
-    .tag-phone-before p {
-        margin-bottom: 32px;
-        font-size: 18px;
-        line-height: 25px;
-        text-transform: uppercase;
-        letter-spacing: -0.03em;
-    }
-    
-    .contacts_tel {
-        display: inline-block;
-        margin-bottom: 30px;
-        font-size: 60px;
-        line-height: 60px;
-        color: #121212;
-        text-decoration: none;
-    }
-    
-    .contacts_tel:hover {
-        opacity: 0.5;
-    }
-    
-    .contacts_mail {
-        display: inline-block;
+    .contact-mail {
+        position: relative;
+        display: block;
         padding-bottom: 10px;
         font-size: 60px;
         line-height: 60px;
@@ -74,9 +132,22 @@
         border-bottom: solid 2px #121212;
     }
     
-    .contacts_mail:hover {
+    .contact-mail:hover {
         opacity: 1;
         border-bottom: solid 3px #121212;
+    }
+
+    .contact-mail:before {
+        position: absolute;
+        top: -37px;
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url('../resources/Vector-mail.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     
 }
