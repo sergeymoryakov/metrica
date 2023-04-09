@@ -87,6 +87,7 @@
     .contact {
         padding-top: 32px;
         width: calc(50% - 8px);
+        min-width: 418px;
     }
 
     .contact-phone {
@@ -132,6 +133,7 @@
     .contact {
         padding-top: 37px;
         width: calc(50% - 5px);
+        min-width: 557px;
     }
     
     .contact-phone {
