@@ -1,29 +1,28 @@
 /* Contacts Section Styles */
 
-
 .contacts {
-    padding: 150px 0;
+    padding: 83px 0;
+    border: 1px solid red;
 }
     
 .contacts-wrapper {
     display: flex;
-    column-gap: 10px;
-
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .contact {
     display: flex;
-    padding-top: 37px;
-    width: calc(50% - 5px);
+    padding-top: 27px;
     background-color: lightgreen;
 }
 
 .contact-phone {
+    position: relative;
     display: block;
     padding-top: 10px;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 46px;
     color: #121212;
     text-decoration: none;
 }
@@ -32,41 +31,90 @@
     opacity: 0.5;
 }
 
+.contact-phone:before {
+    position: absolute;
+    top: -27px;
+    left: -3px;
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../resources/Vector-phone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .contact-mail {
+    position: relative;
     display: block;
     padding-bottom: 10px;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 46px;
     color: #121212;
     text-decoration: none;
     opacity: 0.5;
     border-bottom: solid 2px #121212;
 }
 
-.contacts_mail:hover {
+.contact-mail:hover {
     opacity: 1;
     border-bottom: solid 3px #121212;
 }
 
-/*     
-.add-icon-before:before {
+.contact-mail:before {
+    position: absolute;
+    top: -35px;
     content: "";
     display: block;
-    margin-bottom: 13px;
-    margin-left: 0px;
-    width: 24px;
-    height: 24px;
-    background-image: url('../resources/Vector-phone.png');
+    width: 18px;
+    height: 18px;
+    background-image: url('../resources/Vector-mail.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-*/
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
     
-    
+    .contacts {
+        padding: 120px 0 80px 0;
+    } 
+
+    .contacts-wrapper {
+        gap: 16px;
+    }
+
+    .contact {
+        padding-top: 32px;
+        width: calc(50% - 8px);
+    }
+
+    .contact-phone {
+        font-size: 45px;
+        line-height: 60px;
+    } 
+
+    .contact-phone:before {
+        top: -37px;
+        left: -5px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact-mail {
+        font-size: 45px;
+        line-height: 60px;
+    } 
+
+    .contact-mail:before {
+        top: -37px;
+        left: -3px;
+        width: 24px;
+        height: 24px;
+    }
+
 
 }
 /*** End TABLET Screen ***/
@@ -80,74 +128,32 @@
     }
         
     .contacts-wrapper {
-        display: flex;
         column-gap: 10px;
-
-        flex-wrap: wrap;
     }
 
     .contact {
-        display: flex;
         padding-top: 37px;
         width: calc(50% - 5px);
-        background-color: lightgreen;
     }
     
     .contact-phone {
-        position: relative;
-        display: block;
-        padding-top: 10px;
         font-size: 60px;
         line-height: 60px;
-        color: #121212;
-        text-decoration: none;
-    }
-    
-    .contact-phone:hover {
-        opacity: 0.5;
     }
     
     .contact-phone:before {
-        position: absolute;
-        top: -37px;
-        content: "";
-        display: block;
-        width: 24px;
-        height: 24px;
-        background-image: url('../resources/Vector-phone.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        top: -43px;
     }
     
     .contact-mail {
-        position: relative;
-        display: block;
-        padding-bottom: 10px;
         font-size: 60px;
         line-height: 60px;
-        color: #121212;
-        text-decoration: none;
-        opacity: 0.5;
-        border-bottom: solid 2px #121212;
-    }
-    
-    .contact-mail:hover {
-        opacity: 1;
-        border-bottom: solid 3px #121212;
     }
 
     .contact-mail:before {
-        position: absolute;
-        top: -37px;
-        content: "";
-        display: block;
+        top: -43px;
         width: 24px;
         height: 24px;
-        background-image: url('../resources/Vector-mail.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
 }
