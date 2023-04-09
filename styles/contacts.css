@@ -1,7 +1,7 @@
 /* Contacts Section Styles */
 
 .contacts {
-    padding: 83px 0;
+    padding: 83px 0 70px 0;
 }
     
 .contacts-wrapper {
@@ -13,7 +13,6 @@
 .contact {
     display: flex;
     padding-top: 27px;
-    background-color: lightgreen;
 }
 
 .contact-phone {
