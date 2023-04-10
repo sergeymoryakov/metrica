@@ -11,14 +11,14 @@
 }
 
 .service {
-    margin-bottom: 63px;
+    margin-bottom: 57px;
     position: relative;
     width: 100%;
     display: block;
 }
 
 .service img {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
     width: 100%;
     object-fit: cover;
 }
@@ -64,7 +64,7 @@
 @media (min-width: 576px) {
 
     .services {
-        padding: 151px 0 118px 0;
+        padding: 150px 0 118px 0;
     }
     
     .services-wrapper {
@@ -72,7 +72,7 @@
     }
     
     .service {
-        margin-bottom: 80px;
+        margin-bottom: 77px;
         width: calc(50% - 5px);
     }
 
@@ -81,8 +81,8 @@
     }
 
     .service h3 {
-        font-size: 30px;
-        line-height: 41px;
+        font-size: 25px;
+        line-height: 34px;
     }
 
     .btn-service {
@@ -114,16 +114,22 @@
     }
     
     .services-wrapper {
-        margin-bottom: 7px;
+        margin-bottom: 25px;
     }
 
     .service {
-        margin-bottom: 85px;
+        margin-bottom: 75px;
     }
 
     .service img {
         margin-bottom: 25px;
     }
+
+    .service h3 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+
     
 }
 /*** End WIDE Screen ***/

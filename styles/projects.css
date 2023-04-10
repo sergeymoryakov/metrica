@@ -1,7 +1,7 @@
 /* Projects Section Styles */
 
 .projects {
-    margin-bottom: 144px;
+    margin-bottom: 80px;
 }
 
 .project {
@@ -59,7 +59,7 @@
 @media (min-width: 576px) {
     
     .projects {
-        margin-bottom: 103px;
+        margin-bottom: 100px;
     }
     
     .project {
