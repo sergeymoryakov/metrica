@@ -1,7 +1,7 @@
 /* Contacts Section Styles */
 
 .contacts {
-    padding: 80px 0 70px 0;
+    padding: 80px 0 73px 0;
 }
     
 .contacts-wrapper {
@@ -20,34 +20,26 @@
     position: relative;
 }
 
-.contact-phone a {
-    display: block;
-    padding-top: 10px;
-    font-size: 35px;
-    line-height: 46px;
-    color: #121212;
-    text-decoration: none;
-}
-
-.contact-phone a:hover {
-    opacity: 0.5;
-}
-
-
+.contact-phone a,
 .contact-mail a {
     display: block;
-    padding-bottom: 10px;
     font-size: 35px;
     line-height: 46px;
     color: #121212;
     text-decoration: none;
-    opacity: 0.5;
-    border-bottom: solid 2px #121212;
 }
 
+.contact-phone a {
+    padding-top: 10px;
+}
+
+.contact-mail a {
+    padding-bottom: 10px;
+}
+
+.contact-phone a:hover,
 .contact-mail a:hover {
-    opacity: 1;
-    border-bottom: solid 3px #121212;
+    opacity: 0.5;
 }
 
 .contact-phone:before,
@@ -73,11 +65,12 @@
     background-image: url('../resources/Vector-mail.png');
 }
 
+
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
     
     .contacts {
-        padding: 120px 0 80px 0;
+        padding: 120px 0 120px 0;
     } 
 
     .contacts-wrapper {
@@ -90,24 +83,38 @@
         min-width: 418px;
     }
 
-    .contact-phone {
+    .contact-phone a,
+    .contact-mail a {
+        padding: 0;
         font-size: 45px;
         line-height: 60px;
     } 
-    
-    .contact-mail {
-        font-size: 45px;
-        line-height: 60px;
+
+    .contact-phone a {
+        margin-top: 10px;
     } 
+
+    .contact-mail a {
+        margin-bottom: 10px;
+    } 
+
+    .contact-mail a {
+        opacity: 0.5;
+        border-bottom: solid 2px #121212;
+    }
+
+    .contact-mail a:hover {
+        opacity: 1;
+        border-bottom: solid 3px #121212;
+    }
     
     .contact-phone:before,
     .contact-mail:before {
-        top: -37px;
+        top: -4px;
         width: 24px;
         height: 24px;
     }
     
-    /* NOTE: FOR PP ACCURACY */
     .contact-phone:before {
         left: -5px;
     }
@@ -137,19 +144,24 @@
         min-width: 557px;
     }
     
-    .contact-phone {
-        font-size: 60px;
-        line-height: 60px;
-    }
-    
-    .contact-mail {
+    .contact-phone a,
+    .contact-mail a {
+        margin: 0;
         font-size: 60px;
         line-height: 60px;
     }
 
+    .contact-phone a{
+        padding-top: 10px;
+    }
+
+    .contact-mail a {
+        padding-bottom: 10px;
+    }
+
     .contact-phone:before,
     .contact-mail:before {
-        top: -43px;
+        top: -2px;
     }
     
 }
