@@ -13,6 +13,27 @@ h2 {
     max-width: 97%;
 }
 
+.btn-allservices {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 51px;
+    border-radius: 4px;
+    border: 1px solid #AD1818;
+    background-color: #AD1818;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-allservices:hover {
+    opacity: 0.5;
+}
+
+/* 
 #btn_services {
     margin-top: 30px;
     width: 100%;
@@ -25,7 +46,8 @@ h2 {
     font-size: 16px;
     line-height: 22px;
     cursor: pointer;
-}
+} 
+*/
 
 
 
@@ -44,7 +66,16 @@ h2 {
     .about-txt {
         max-width: 80%;
     }
+    
+    .btn-allservices {
+        width: 255px;
+        height: 67px;
+        border-radius: 5px;
+        font-size: 20px;
+        line-height: 67px;
+    }
 
+    /* 
     #btn_services {
         margin-top: 30px;
         width: 255px;
@@ -57,7 +88,8 @@ h2 {
         font-size: 20px;
         line-height: 27px;
         cursor: pointer;
-    } 
+    }  
+    */
 
 }
 /*** End TABLET Screen ***/
@@ -78,7 +110,8 @@ h2 {
     .about-txt {
         max-width: 1060px;
     }
-    
+
+/*     
     #btn_services {
         margin-top: 30px;
         width: 255px;
@@ -92,6 +125,7 @@ h2 {
         line-height: 27px;
         cursor: pointer;
     }
-    
+*/
+
 }
 /*** End WIDE Screen ***/
