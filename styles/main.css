@@ -45,9 +45,13 @@ button {
     color: #ffffff;
 }
 
+.zero-margin {
+    margin: 0;
+}
+
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
-
+    
     .container {
         padding: 0 16px;
         /* NOTE: FOR PP TBS only: 
@@ -59,6 +63,10 @@ button {
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 25px;
+    }
+    
+    .zero-margin {
+        margin: 0;
     }
 }
 /*** End TABLET Screen ***/
@@ -74,11 +82,15 @@ button {
         background-color: lightblue;
         */
     }
-
+    
     .section-title {
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 24px;
+    }
+    
+    .zero-margin {
+        margin: 0;
     }
 }
 /*** End WIDE Screen ***/

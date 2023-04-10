@@ -97,40 +97,5 @@ img {
 /*
 
 
-.footer {
-    margin: 0 auto;
-    max-width: 1400px;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    background-color: #121212;
-    color: #ffffff;
-}
 
-
-.footer__nav {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
-
-.footer__nav a {
-    display: inline-block;
-    margin-right: 55px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.footer__nav a:last-child {
-    margin-right: 0;
-}
-
-
-.footer__nav a:hover {
-    opacity: 50%;
-}
-
-.footer p {
-    text-align: center;
-    margin-top: 87px;
-}
 */
