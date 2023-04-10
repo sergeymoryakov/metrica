@@ -28,7 +28,7 @@
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
     .feedbacks {
-        margin: 115px 0 120px 0;
+        margin: 120px 0 120px 0;
     }    
     
     .feedbacks-wrapper {
@@ -66,7 +66,7 @@
 @media (min-width: 1182px) {
 
     .feedbacks {
-        margin: 150px 0 157px 0;
+        margin: 150px 0 150px 0;
     }    
     
     .feedbacks-wrapper {
