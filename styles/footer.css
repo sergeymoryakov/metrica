@@ -15,6 +15,10 @@
     max-width: 281px;
 }
 
+.footer-nav a {
+    text-decoration: none;
+}
+
 .footer-nav a:hover {
     opacity: 0.5;
 }
@@ -23,6 +27,11 @@
     margin-top: 41px;
     display: flex;
     justify-content: center;
+}
+
+.footer-copyright p {
+    font-size: 13px;
+    line-height: 18px;
 }
 
 
@@ -40,6 +49,11 @@
     
     .footer-copyright {
         margin-top: 87px;
+    }
+
+    .footer-copyright p {
+        font-size: 20px;
+        line-height: 27px;
     }
 
 }
