@@ -35,6 +35,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    /* CHECK IF NEEDED */
     overflow: auto;
 }
 

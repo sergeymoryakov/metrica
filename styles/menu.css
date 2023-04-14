@@ -1,0 +1,58 @@
+/* Menu Section Styles */
+
+.menu {
+    margin: 32px auto 70px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}    
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    
+    
+
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+    .menu {
+        margin: 32px auto 70px auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }    
+    
+    .menu-nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    
+    .menu-nav a {
+        display: block;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #121212;
+        text-decoration: none;
+    }
+    
+    .menu-nav a:hover {
+        opacity: 0.5;
+        box-shadow: inset 0 -0.5px #121212;
+        /* NOTE: USE Shadow instead of Border to avoid moving bottom content while hovering
+        border-bottom: 1px solid #121212;
+        */
+    }
+}
+/*** End WIDE Screen ***/
