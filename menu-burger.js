@@ -1,11 +1,11 @@
-const BURGER_OPENED_CLASSNAME = 'burger_open';
-const BURGER_BTN_OPENED_CLASSNAME = 'burger-btn_open';
-const BODY_FIXED_CLASSNAME = 'body_fixed';
+const BURGER_OPENED_CLASSNAME = 'menu-burger-open';
+const BURGER_BTN_OPENED_CLASSNAME = 'btn-menu-burger-open';
+const BODY_FIXED_CLASSNAME_2 = 'body-fixed';
 
-const bodyNode = document.querySelector('body');
-const burgerNode = document.querySelector('.js-burger');
-const burgerBtnNode = document.querySelector('.js-burger-btn');
-const burgerContentNode = document.querySelector('.js-burger__content')
+const bodyNode2 = document.querySelector('body');
+const burgerNode = document.querySelector('.js-menu-burger');
+const burgerBtnNode = document.querySelector('.js-btn-menu-burger');
+const burgerContentNode = document.querySelector('.js-menu-burger-content')
 
 burgerBtnNode.addEventListener('click', toggleBurger);
 
@@ -19,6 +19,6 @@ burgerNode.addEventListener('click', (event) => {
 
 function toggleBurger() {
     burgerNode.classList.toggle(BURGER_OPENED_CLASSNAME);
-    bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
+    bodyNode2.classList.toggle(BODY_FIXED_CLASSNAME_2);
     burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
 }

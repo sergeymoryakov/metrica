@@ -17,10 +17,22 @@
     display: none;
 }
 
-.menu-burger-btn {
+.btn-menu-burger {
     display: block;
-    object-fit: cover;
-    color: black;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    background-image: url("/resources/icons8-drag-list-down-24.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-menu-burger-open {
+    z-index: 90;
+    background-image: url("/resources/Vector-x.png");
+
 }
 
 .menu-burger {
@@ -48,31 +60,11 @@
 }
 
 .menu-burger-content {
-    position: relative;
+    /* position: relative; */
     padding: 80px 30px;
     width: 274px;
     height: 100%;
     background-color: #FFFFFF;
-}
-
-.btn-burger-close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 34px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-burger-close img {
-    display: block;
-    width: 20px;
-    height: 20px;
 }
 
 .menu-burger-logo {
@@ -161,7 +153,7 @@
         display: none;
     }
 
-    .menu-burger-btn {
+    .btn-menu-burger {
         display: none;
     }
 }
