@@ -89,7 +89,7 @@
     height: 100%;
     overflow-y: auto;
     background-color: #FFFFFF;
-    transition: transform 0.5s linear;
+    transition: transform 0.5 linear;
     transform: translateX(100%);
 }
 
