@@ -147,13 +147,25 @@
 
 /*** TABLET Screen only ***/
 @media (min-width: 576px) {
-    
+
+    .menu {
+        margin: 32px auto 73px auto;
+    }
+
+    .menu-logo img {
+        width: 127px;
+    }
+
     .btn-menu-burger {
         width: 50px;
     }
     
+    .btn-menu-burger::before {
+        top: -15px;
+    } 
+
     .btn-menu-burger::after {
-        top: 6px;
+        top: -9px;
         width: 31px;
     } 
 
