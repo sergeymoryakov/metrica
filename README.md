@@ -1,2 +1,2 @@
 # metrica
-adaptive version of metrica studio website
+Metrica Studio web-page - a training project to pracice HTML, CSS and JavaScript usage.
